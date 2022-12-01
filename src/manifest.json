@@ -1,0 +1,15 @@
+{
+    "name": "Gopher Buddy Blocker",
+    "version": "1.0",
+    "description": "The Gopher Buddy Blocker by John Mcdowall",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "assets/Icon.png",
+        "48": "assets/Icon.png",
+        "128": "assets/Icon.png"
+    },
+    "manifest_version": 2
+}
